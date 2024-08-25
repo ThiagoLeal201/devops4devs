@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
       - name: reviewvideo
-        image: fabricioveronez/devops4dev-review:v2
+        image: thiagoleal201/devops4dev-review:v2
         ports:
         - containerPort: 8080
         env:
