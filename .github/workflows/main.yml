@@ -42,8 +42,8 @@ jobs:
 
       - name: Deployment da aplicação
         uses: Azure/k8s-deploy@v5
-          with:
-            manifests: |
-                k8s/deployment.yml
-            images: |
-              thiagoleal201/devops4dev-review:v${{ github.run_number }}
+        with:
+          manifests: |
+              k8s/deployment.yml
+          images: |
+            thiagoleal201/devops4dev-review:v${{ github.run_number }}
