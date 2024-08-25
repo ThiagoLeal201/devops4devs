@@ -47,3 +47,4 @@ jobs:
               k8s/deployment.yml
           images: |
             thiagoleal201/devops4dev-review:v${{ github.run_number }}
+            
